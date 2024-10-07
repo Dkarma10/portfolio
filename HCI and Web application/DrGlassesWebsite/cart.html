@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>CHECKOUT</h1>
+
+ <div class="action">
+ <a href="glasses.html" title="Go back to the Glasses Page" class="btn back">Back to Shopping</a>
+ <a href="payment.html" title="Next Page" class="btn next">Next Page</a>
+ </div>
+ </header>
+  
+
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+<div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">PURCHASE</button>
+        </div>
+      </div>
+</div>
+      
+<!--   end of cart modal -->
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </div>
+<!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="./images/i-1.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">£50</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="./images/i-2.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">£60</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="./images/I-3.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">£70</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="./images/p-1.png" alt="">
+         <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">£80</span>
+    </div>
+   
+  </div>  
+     <!-- END EDMO HTML-->
+ </main>
+ 
+      
+  
+  <script  src="./js/script.js"></script>
+  </body>
+</html>
