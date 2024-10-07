@@ -1,0 +1,3 @@
+/Users/dbgurung/Desktop/Uni/Fundamental of Computer Science/practical/sortcard /cmake-build-debug/CMakeFiles/randomCard.dir
+/Users/dbgurung/Desktop/Uni/Fundamental of Computer Science/practical/sortcard /cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dbgurung/Desktop/Uni/Fundamental of Computer Science/practical/sortcard /cmake-build-debug/CMakeFiles/rebuild_cache.dir
